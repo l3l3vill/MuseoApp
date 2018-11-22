@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "263419838259",
+    "firebase_url": "https://museoapp-fc711.firebaseio.com",
+    "project_id": "museoapp-fc711",
+    "storage_bucket": "museoapp-fc711.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263419838259:android:9583a222157aa13b",
+        "android_client_info": {
+          "package_name": "com.example.lele.ladyvillamilentregabledos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263419838259-bnvs790j1pkv6kofefaqnplosqdv4273.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lele.ladyvillamilentregabledos",
+            "certificate_hash": "6e205ec8bab6170cc3aacc71b5842a8156fc810e"
+          }
+        },
+        {
+          "client_id": "263419838259-l2if1kj129jso29b0ql4brum37tkhht5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3Hnck-TDlq9nUn7t3IT2NqFokBo4VjTc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263419838259-l2if1kj129jso29b0ql4brum37tkhht5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,13 +1,13 @@
 package com.example.lele.ladyvillamilentregabledos.View;
 
-import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.example.lele.ladyvillamilentregabledos.Model.Paint;
-import com.example.lele.ladyvillamilentregabledos.R;
+
+import com.example.lele.ladyvillamilentregabledos.Utils.Util;
 
 public class MainActivity extends AppCompatActivity implements PaintRecycler_Fragment.InterfaceGetInformation {
 
@@ -15,6 +15,8 @@ public class MainActivity extends AppCompatActivity implements PaintRecycler_Fra
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Util.printHash(this);
 
         //INSTANCIO FRAGMENT
         PaintRecycler_Fragment paintRecycler_fragment = new PaintRecycler_Fragment();
@@ -47,4 +49,6 @@ public class MainActivity extends AppCompatActivity implements PaintRecycler_Fra
         fragmentTransaction.addToBackStack(null).replace(R.id.container, detalleRecetaFragment).commit();*/
 
     }
+
+
 }
